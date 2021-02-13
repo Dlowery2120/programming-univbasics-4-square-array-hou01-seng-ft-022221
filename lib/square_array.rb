@@ -1,5 +1,5 @@
 
-def square_array(array)
+def square_array(src)
   count = 0
   while count < array.length do
     puts array[count] * array[count]
@@ -7,4 +7,3 @@ def square_array(array)
   end
 end
 
-square_array(array)
